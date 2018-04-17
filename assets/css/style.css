@@ -2,7 +2,7 @@ body{
     background: #eee;
     margin: 0;
     overflow: auto;
-    width: 100%;
+    min-width: 1920px; 
 }
 
 .topbar{
@@ -20,27 +20,31 @@ body{
     font-size: 20px;
     height: 40px;
     top: 0;
+    margin-left: 30%;
 }
 
 h1{
     color: #2b9687;
+    padding-top: 20px;
 }
 
 .overlord{
     background: #fff;
     width: 960px;
-    margin-left: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0 20px 20px 20px;
 }
 
 .mypic{
     width: 150px;
     height: auto;
     float: left;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
 }
 
 p{
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .pstart{
