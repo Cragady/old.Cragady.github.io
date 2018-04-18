@@ -8,6 +8,10 @@ body{
 .topbar{
     padding: 40px;
     background: #fff;
+    margin-bottom: 20px;
+    border: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgb(179, 178, 178);
 
 }
 
@@ -15,11 +19,23 @@ body{
     padding: 20px;
     background: #2b9687;
     position: absolute;
+    top: 0;
     color: #fff;
     font-size: 30px;
     height: 40px;
-    top: 0;
     text-align: center;
+    z-index: 2;
+}
+
+.border-f{
+    padding: 1px;
+    background: #2b9687;
+    position: relative;
+    right: 21px;
+    z-index: 3;
+    height: 78.5px;
+    bottom: 55px;
+    width: 1px;
 }
 
 
@@ -44,14 +60,17 @@ h1{
 
 .overlord{
     background: #fff;
-    width: 940px;
+    width: 938px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px 20px 0px;
+    border: solid;
+    border-color: rgb(216, 212, 212);
+    border-width: 1px;
 }
 
 .mypic{
-    width: 150px;
+    width: 167px;
     height: auto;
     float: left;
     margin: 20px 20px 20px 0px;
@@ -72,6 +91,9 @@ p{
     clear: both;
 }
 
+/*there is an issue with positioning when
+entering dev tools on chrome*/
+
 .bottombar{
     background: rgb(92, 91, 91);
     position: absolute;
@@ -90,4 +112,12 @@ p{
     top: 0;
     min-width: 960px;
     width: 100%;
+}
+
+.more-grey{
+    border: none;
+    height: 2px;
+    color: rgb(179, 178, 178);
+    background: rgb(179, 178, 178);
+    margin-left: 20px;
 }
