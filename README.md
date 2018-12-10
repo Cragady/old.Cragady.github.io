@@ -8,16 +8,16 @@ The purpose of this Portfolio was to make a copy of a basic portfolio using only
 
 ## About Me
 
-<img src="assets/images/portfolio-about-me.png">
+<kbd><img src="assets/images/portfolio-about-me.png" style="border: 1px solid white"></kbd>
 
 ## Contact
 
-<img src="assets/images/portfolio-contact.png">
+<kbd><img src="assets/images/portfolio-contact.png"></kbd>
 
 ## Gallery 
 
-<img src="assets/images/portfolio-gallery.png">
+<kbd><img src="assets/images/portfolio-gallery.png"></kbd>
 
 ## Recommended Dimensions
 
-<img src="assets/images/Recommended-Dimensions.png">
+<kbd><img src="assets/images/Recommended-Dimensions.png"></kbd>
