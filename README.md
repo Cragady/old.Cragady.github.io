@@ -1,4 +1,4 @@
-<a href="https://cragady.github.io/" target="_blank">Application</a>
+[Application](https://cragady.github.io/)
 
 # Purpose
 
